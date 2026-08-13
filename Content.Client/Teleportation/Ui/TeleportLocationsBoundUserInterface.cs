@@ -11,6 +11,11 @@ public sealed class TeleportLocationsBoundUserInterface : BoundUserInterface
     [ViewVariables]
     private TeleportMenu? _menu;
 
+    /// <summary>
+    /// Stub function named TeleportLocationsBoundUserInterface().
+    /// </summary>
+    /// <param name="owner"></param>
+    /// <param name="uiKey"></param>
     public TeleportLocationsBoundUserInterface(EntityUid owner, Enum uiKey) : base(owner, uiKey)
     {
     }

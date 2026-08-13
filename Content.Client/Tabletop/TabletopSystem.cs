@@ -38,6 +38,9 @@ namespace Content.Client.Tabletop
         private BaseWindow? _window; // Current open tabletop window (only allow one at a time)
         private EntityUid? _table; // The table entity of the currently open game session
 
+        /// <summary>
+        /// Extension of Initialize() for the TabletopSystem class.
+        /// </summary>
         public override void Initialize()
         {
             base.Initialize();
@@ -59,6 +62,10 @@ namespace Content.Client.Tabletop
                 StopDragging(false);
         }
 
+        /// <summary>
+        /// Extension of Update() for the TabletopSystem class.
+        /// </summary>
+        /// <param name="frameTime"></param>
         public override void Update(float frameTime)
         {
             base.Update(frameTime);

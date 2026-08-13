@@ -56,6 +56,9 @@ public sealed partial class TextScreenSystem : VisualizerSystem<TextScreenVisual
     private const string TextPath = "Effects/text.rsi";
     private const int CharWidth = 4;
 
+    /// <summary>
+    /// Extension of Initialize() for the TextScreenSystem class.
+    /// </summary>
     public override void Initialize()
     {
         base.Initialize();
